@@ -150,4 +150,79 @@
 //     }
 
 // Qno18
-var num = [4,7,9,3,0,5]
+// var num = [4,7,9,3,0,5]
+// var user = +prompt("Give num")
+// var found = false
+//     for(var i = 0; i < num.length; i++){
+//         if(num[i] === user){
+//             found = true;
+//             break
+//         }
+//     }
+
+//     if (found){
+//         console.log(user)
+//     }else{
+//         console.log(user + "doesnt exist")
+//     }
+
+// Qno19
+var arr = [1,2,3,5,4]
+var user = +prompt("Enter num")
+var index = -1
+    for(var i = 0; i < arr.length; i++){
+        if(arr[i] === user){
+            index = 1
+            break
+        }
+    }
+
+    if(index !== -1){
+        console.log(user + index)
+    }else(index === -1)
+        console.log(user + " Is not found in the array")
+
+// Qno20
+// var arr = [1,2,3,4,5,6,7,8,9]
+// var sum = 0
+//     for(var i = 0; i < arr.length; i++){
+//         if(arr[i] % 2 === 0){
+//             sum += arr[i]
+//         }
+//     }console.log(sum)
+
+// Qno21
+// var arr = [1,2,3,4,5,6,7,8]
+// var empty = []
+//     for(var i = 0; i < arr.length; i++){
+//         empty.push(arr[i] ** 2)
+//     }console.log("original array = " +arr)
+//     console.log("Square array = " + empty)
+
+// Qno22
+// var arr = [1,3,4,5,7,9]
+// var reverse = []
+
+//     for (var i = arr.length -1; i >= 0; i--){
+//         reverse.push(arr[i] );
+//     }console.log(reverse)
+
+// Qno23
+// var arr1 = [1,2,3,4,5]
+// var arr2 = [6,7,8,9,10]
+// var merged = []
+//     for(var i = 0; i < arr1.length; i++){
+//         merged.push(arr1[i]);
+        
+//     }for(var j = 0; j < arr2.length; j++){
+//             merged.push(arr2[j])
+//         }
+//     console.log(merged);
+
+// Qno24
+// var arr = [-1,-2,-3,-4,-5]
+//     for(var i = 0; i < arr.length; i++){
+//         if(arr[i] < 0){
+//             arr[i] = 0;
+//         }
+//     }console.log("New " + arr)
