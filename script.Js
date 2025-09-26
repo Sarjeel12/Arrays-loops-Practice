@@ -161,68 +161,192 @@
 //     }
 
 //     if (found){
-//         console.log(user)
+//         console.log(user + " num exists")
 //     }else{
 //         console.log(user + "doesnt exist")
 //     }
 
 // Qno19
-var arr = [1,2,3,5,4]
-var user = +prompt("Enter num")
-var index = -1
-    for(var i = 0; i < arr.length; i++){
-        if(arr[i] === user){
-            index = 1
-            break
-        }
-    }
+// var arr = [1,2,3,5,4]
+// var user = +prompt("Enter num")
+// var index = -1
+//     for(var i = 0; i < arr.length; i++){
+//         if(arr[i] === user){
+//             index = 1
+//             break
+//         }
+//     }
 
-    if(index !== -1){
-        console.log(user + index)
-    }else(index === -1)
-        console.log(user + " Is not found in the array")
+//     if(index !== -1){
+//         console.log(user + index)
+//     }else(index === -1)
+//         console.log(user + " Is not found in the array")
 
 // Qno20
 // var arr = [1,2,3,4,5,6,7,8,9]
+// var count = 0
+//     for(var i = 0; i < arr.length; i++){
+//         if(arr[i] > 10){
+//             count++
+//         }
+//     }console.log(count)
+
+// Qno21
+// var arr = [1,2,3,4,5,6,7,8]
+// var empty = []
+
+//     for(var i = 0; i < arr.length; i++){
+//         if(arr[i] % 2 === 0){
+//             empty.push(arr[i]);
+//         }
+//     }
+
+//     console.log("original array = " +arr)
+//     console.log("Even array = " + empty)
+
+
+// Qno22
+// var arr = [1,2,3,4,5,6,7,8]
+// var empty = []
+
+//     for(var i = 0; i < arr.length; i++){
+//         if(arr[i] % 2 !== 0){
+//             empty.push(arr[i]);
+//         }
+//     }
+
+//     console.log("original array = " +arr)
+//     console.log("odd array = " + empty)
+
+
+// Qno23
+// var arr = [1,2,3,4,5,6,7,8]
+// var newarr = []
+
+//     for(var i = 0; i < arr.length; i++){
+//         newarr.push(arr[i] + 1)
+//     }
+
+//     console.log(arr + " Original")
+//     console.log(newarr + " Increased")
+
+// Qno24
+// var arr = [1,2,3,4,5,6,7,8]
+// var newarr = []
+
+//     for(var i = 0; i < arr.length; i++){
+//         newarr.push(arr[i] * 5)
+//     }
+
+//     console.log(arr + " Original")
+//     console.log(newarr + " Multiplied by 5")
+
+// Qno25
+
+// var arr = [1,2,3,4,5,6,7,8,9]
+// var reverse = []
+//     for(var i = arr.length -1; i >= 0; i--){
+//         reverse.push(arr[i]);
+//     }
+// console.log(reverse)    
+
+// Qno26
+
+// var arr = [2,3,4,5,6,7]
+// var empty = []
+
+//     for(var i = 0; i < arr.length; i++){
+//         empty.push(arr[i])
+//     }
+// console.log('Original ' +arr)    
+// console.log('Copied ' +empty)    
+
+
+// Qno27
+
+// var arr1 = [1,2,3,4,5]
+// var arr2 = [6,7,8,9,10]
+// var merged = []
+
+//     for(var i = 0; i < arr1.length; i++){
+//         merged.push(arr1[i]);
+
+//     }
+//     for(var j = 0; j < arr2.length; j++){
+//         merged.push(arr2[j])
+//     }
+// console.log("New Array " + merged);    
+
+// Qno28
+
+// var arr = [1,2,3,4,5,6,7,8]
 // var sum = 0
 //     for(var i = 0; i < arr.length; i++){
 //         if(arr[i] % 2 === 0){
 //             sum += arr[i]
 //         }
-//     }console.log(sum)
+//     }console.log(sum + " This is sum of even")
 
-// Qno21
+// // Qno29
 // var arr = [1,2,3,4,5,6,7,8]
-// var empty = []
+// var sum = 0
+
 //     for(var i = 0; i < arr.length; i++){
-//         empty.push(arr[i] ** 2)
-//     }console.log("original array = " +arr)
-//     console.log("Square array = " + empty)
-
-// Qno22
-// var arr = [1,3,4,5,7,9]
-// var reverse = []
-
-//     for (var i = arr.length -1; i >= 0; i--){
-//         reverse.push(arr[i] );
-//     }console.log(reverse)
-
-// Qno23
-// var arr1 = [1,2,3,4,5]
-// var arr2 = [6,7,8,9,10]
-// var merged = []
-//     for(var i = 0; i < arr1.length; i++){
-//         merged.push(arr1[i]);
-        
-//     }for(var j = 0; j < arr2.length; j++){
-//             merged.push(arr2[j])
+//         if(arr[i] % 2 === 1){
+//             sum += arr[i]
 //         }
-//     console.log(merged);
+//     }console.log(sum + " This is sum of Odd")
 
-// Qno24
-// var arr = [-1,-2,-3,-4,-5]
+// Qno30
+
+// var negArr = [-1,-2,-3,-4]
+
+//     for(var i = 0; i < negArr.length; i++){
+//         if(negArr[i] < 0){
+//             negArr[i] = 0
+//         }
+//     }
+//     console.log(negArr)
+
+// Qno31
+
+// var arr = [1,2,3,4,5,-6,-7]
+// var positive = 0;
+// var neg =  0;
 //     for(var i = 0; i < arr.length; i++){
-//         if(arr[i] < 0){
-//             arr[i] = 0;
+//         if(arr[i] > 0){
+//             positive++
+//         }else if(arr[i] < 0){
+//             neg++
 //         }
-//     }console.log("New " + arr)
+//     }console.log("Positive = " +positive);
+//      console.log("Negative = " +neg);
+
+// Qno32
+// Division method
+
+// var arr = [1,2,3,4,5]
+// var count = 0;
+
+//     for(var i = 0; i < arr.length; i++){
+//         if(arr[i] % 3 === 0){
+//             count++
+//         }
+//     }console.log(count)
+
+// Qno33
+
+// var arr = [10, 20, 5, 35]
+// var largest = 0
+// var secondlargest = 0
+    
+//     for (var i = 0; i < arr.length; i++) {
+//         if(arr[i] > largest){
+//             secondlargest = largest
+//             largest = arr[i]
+//         }else if(arr[i] > secondlargest && arr[i] < largest){
+//             secondlargest = arr[i]
+//         }
+//     }
+//     console.log("largest " + largest)
+//     console.log("Secondlargest " + secondlargest)
