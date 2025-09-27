@@ -337,8 +337,8 @@
 // Qno33
 
 // var arr = [10, 20, 5, 35]
-// var largest = 0
-// var secondlargest = 0
+// var largest = arr[0]
+// var secondlargest = arr[0]
     
 //     for (var i = 0; i < arr.length; i++) {
 //         if(arr[i] > largest){
@@ -350,3 +350,39 @@
 //     }
 //     console.log("largest " + largest)
 //     console.log("Secondlargest " + secondlargest)
+
+// Qno34
+
+
+// var arr = [10, 20, 5, 35]
+// var smaller = arr[0]
+// var secondsmaller = arr[0]
+    
+//     for (var i = 1; i < arr.length; i++) {
+//         if(arr[i] < smaller){
+//             secondsmaller = smaller
+//             smaller = arr[i]
+//         }else if(arr[i] < secondsmaller && arr[i] > smaller){
+//             secondsmaller = arr[i]
+//         }
+//     }
+//     console.log("smaller " + smaller)
+//     console.log("Secondsmaller " + secondsmaller)
+
+// // Qno35
+
+// var arr = [1,2,3,4,5,6]
+// var largest = arr[0]
+// var small = arr[0]
+//     for(var i = 1; i< arr.length; i++){
+//         if(arr[i] > largest){
+//             largest = arr[i]
+//         }else if(arr[i] < small){
+//             small = arr[i]
+//         }
+//     }
+// var diff = largest - small;
+// console.log(arr + " Original")    
+// console.log(largest + " largest")    
+// console.log(small + " Small")    
+// console.log(diff + " Disffernce")    
